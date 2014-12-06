@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="index.css">
+	<title>Souncloud player</title>
+</head>
+<body>
+	<h1>Souncloud player</h1>
+	
+	<h2 id="error-message"></h2>
+	
+	<input type="text" id="search-input" placeholder="soundcloud search for track name">
+	
+	<button id="search-btn">Go</button>
+	
+	<ul id="search-results">
+		<li class="result"></li>
+		<li class="result"></li>
+		<li class="result"></li>
+		<li class="result"></li>
+		<li class="result"></li>
+		<li class="result"></li>
+		<li class="result"></li>
+		<li class="result"></li>
+		<li class="result"></li>
+		<li class="result"></li>
+	</ul>
+
+	<audio src="" id="audio-player"></audio>
+	
+	<script src="//connect.soundcloud.com/sdk.js"></script>
+	<script data-main="scripts/main" src="scripts/require.js"></script>
+</body>
+</html>
